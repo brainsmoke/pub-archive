@@ -9,3 +9,6 @@ apt install fonts-crosextra-carlito fonts-dejavu inkscape
 make
 ```
 
+aotl-34c3-slides.deck contains a list of all individual pages in the pdf
+
+

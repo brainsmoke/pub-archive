@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" height="1080" id="svg16" version="1.1" viewBox="0 0 507.99999 285.75" width="1920" sodipodi:docname="allocating.svg" inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <defs id="defs10">
+    <linearGradient id="linearGradient1142" inkscape:collect="always">
+      <stop id="stop1138" offset="0" style="stop-color:#006e82;stop-opacity:1" />
+      <stop id="stop1154" offset="0.09" style="stop-color:#0a64a0;stop-opacity:1" />
+      <stop id="stop1150" offset="0.18000001" style="stop-color:#005cca;stop-opacity:1" />
+      <stop id="stop1152" offset="0.27000001" style="stop-color:#00a0fa;stop-opacity:1" />
+      <stop id="stop1146" offset="0.36000001" style="stop-color:#00c8f9;stop-opacity:1" />
+      <stop id="stop1158" offset="0.44999999" style="stop-color:#14d2dc;stop-opacity:1" />
+      <stop id="stop1148" offset="0.54000002" style="stop-color:#aa0a3c;stop-opacity:1" />
+      <stop id="stop1160" offset="0.63" style="stop-color:#fa2800;stop-opacity:1" />
+      <stop id="stop1162" offset="0.72000003" style="stop-color:#fa4d76;stop-opacity:1" />
+      <stop id="stop1164" offset="0.81" style="stop-color:#f1f132;stop-opacity:1" />
+      <stop id="stop1156" offset="0.89999998" style="stop-color:#fae68c;stop-opacity:1" />
+      <stop id="stop1140" offset="1" style="stop-color:#fae6be;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" id="linearGradient1144" x1="47.039436" x2="419.07862" y1="-99.093464" y2="-99.093464" inkscape:collect="always" xlink:href="#linearGradient1142" />
+  </defs>
+  <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" id="base" pagecolor="#ffffff" showgrid="false" units="px" inkscape:current-layer="g126" inkscape:cx="776.4247" inkscape:cy="215.79012" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="704" inkscape:window-maximized="1" inkscape:window-width="1366" inkscape:window-x="0" inkscape:window-y="27" inkscape:zoom="0.49497474" />
+  <metadata id="metadata13">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ASLR on the line Slide</dc:title>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Erik Bosman</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>2017</dc:date>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/by/4.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g id="layer2" sodipodi:insensitive="true" inkscape:groupmode="layer" inkscape:label="back">
+    <rect height="285.75" id="rect19" style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" width="508" x="-5.1900512e-15" y="-8.9821824e-06" />
+  </g>
+  <g id="g3253" style="display:none" sodipodi:insensitive="true" inkscape:groupmode="layer" inkscape:label="txt1">
+    <text id="text3245" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#00f81d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="54.952717" y="92.965889" xml:space="preserve"><tspan id="tspan102" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:start;text-anchor:start;fill:#00f81d;fill-opacity:1;stroke-width:0.26458332px" x="54.952717" y="92.965889" sodipodi:role="line"><tspan id="tspan106" style="font-weight:bold;fill:#00f81d;fill-opacity:1">Firefox</tspan><tspan id="tspan867" style="fill:#ffffff;fill-opacity:1"> (on Linux) does not initialize</tspan></tspan><tspan id="tspan44" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px" x="54.952717" y="124.71589" sodipodi:role="line">ArrayBuffers, so linux does not allocate</tspan><tspan id="tspan98" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px" x="54.952717" y="156.46588" sodipodi:role="line">space for the actual pages</tspan></text>
+    <text id="text79" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:125%;font-family:Carlito;-inkscape-font-specification:'Carlito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="54.952717" y="209.38263" xml:space="preserve"><tspan id="tspan83" x="54.952717" y="209.38263" sodipodi:role="line">We can allocate huge chunks and use</tspan><tspan id="tspan85" x="54.952717" y="241.13263" sodipodi:role="line">sliding to recover the whole address</tspan></text>
+  </g>
+  <g id="g126" style="display:inline" inkscape:groupmode="layer" inkscape:label="txt2">
+    <text id="text116" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="54.952717" y="92.965889" xml:space="preserve"><tspan id="tspan110" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px" x="54.952717" y="92.965889" sodipodi:role="line"><tspan id="tspan108" style="font-weight:bold;fill:#00f81d;fill-opacity:1">Chrome</tspan> does initialize memory, but</tspan><tspan id="tspan112" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px" x="54.952717" y="124.71589" sodipodi:role="line">jumps ahead in the address space every</tspan><tspan id="tspan114" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px" x="54.952717" y="156.46588" sodipodi:role="line">time it creates a new heap</tspan></text>
+    <text id="text124" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:125%;font-family:Carlito;-inkscape-font-specification:'Carlito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="54.952717" y="198.79929" xml:space="preserve"><tspan id="tspan118" x="54.952717" y="198.79929" sodipodi:role="line">3rd level address bits can be recovered,</tspan><tspan id="tspan122" x="54.952717" y="230.54929" sodipodi:role="line">4'th level bits needs chrome to</tspan><tspan id="tspan856" x="54.952717" y="262.29929" sodipodi:role="line">initialize/free up to 4TB :-)</tspan></text>
+  </g>
+  <g id="layer1" style="display:inline" transform="translate(0,-11.249984)" inkscape:groupmode="layer" inkscape:label="title">
+    <text id="text833" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.86666489px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="253.83464" y="61.882526" xml:space="preserve"><tspan id="tspan838" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.86666489px;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:center;letter-spacing:-0.35635936px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px" x="253.65646" y="61.882526" sodipodi:role="line">Allocating large chunks of memory</tspan></text>
+  </g>
+</svg>

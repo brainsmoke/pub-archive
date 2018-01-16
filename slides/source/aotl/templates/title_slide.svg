@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 507.99999 285.75"
+   version="1.1"
+   id="svg16"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="title_slide.svg">
+  <defs
+     id="defs10">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1142">
+      <stop
+         style="stop-color:#006e82;stop-opacity:1"
+         offset="0"
+         id="stop1138" />
+      <stop
+         id="stop1154"
+         offset="0.09"
+         style="stop-color:#0a64a0;stop-opacity:1" />
+      <stop
+         id="stop1150"
+         offset="0.18000001"
+         style="stop-color:#005cca;stop-opacity:1" />
+      <stop
+         style="stop-color:#00a0fa;stop-opacity:1"
+         offset="0.27000001"
+         id="stop1152" />
+      <stop
+         id="stop1146"
+         offset="0.36000001"
+         style="stop-color:#00c8f9;stop-opacity:1" />
+      <stop
+         style="stop-color:#14d2dc;stop-opacity:1"
+         offset="0.44999999"
+         id="stop1158" />
+      <stop
+         style="stop-color:#aa0a3c;stop-opacity:1"
+         offset="0.54000002"
+         id="stop1148" />
+      <stop
+         id="stop1160"
+         offset="0.63"
+         style="stop-color:#fa2800;stop-opacity:1" />
+      <stop
+         style="stop-color:#fa4d76;stop-opacity:1"
+         offset="0.72000003"
+         id="stop1162" />
+      <stop
+         id="stop1164"
+         offset="0.81"
+         style="stop-color:#f1f132;stop-opacity:1" />
+      <stop
+         id="stop1156"
+         offset="0.89999998"
+         style="stop-color:#fae68c;stop-opacity:1" />
+      <stop
+         style="stop-color:#fae6be;stop-opacity:1"
+         offset="1"
+         id="stop1140" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1142"
+       id="linearGradient1144"
+       x1="47.039436"
+       y1="-99.093464"
+       x2="419.07862"
+       y2="-99.093464"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="567.67175"
+     inkscape:cy="898.65325"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1364"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="back"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect19"
+       width="508"
+       height="285.75"
+       x="-5.1900512e-15"
+       y="-8.9821824e-06" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-11.249984)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="253.83464"
+       y="167.71588"
+       id="text833"><tspan
+         sodipodi:role="line"
+         id="tspan831"
+         x="253.83464"
+         y="167.71588"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">TITLE_MARKER</tspan></text>
+  </g>
+</svg>

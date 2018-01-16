@@ -1,0 +1,7 @@
+Address Space Layout Randomization
+
+Exploit writers need to find a bug which leaks
+addresses without crashing the program.
+
+... or do they?
+

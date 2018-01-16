@@ -1,0 +1,6 @@
+Address Space Layout Randomization
+
+Widely deployed exploit mitigation strategy:
+
+Choose a different location for code and data
+every time a process is run.

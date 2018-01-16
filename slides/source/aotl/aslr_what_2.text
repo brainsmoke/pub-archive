@@ -1,0 +1,8 @@
+Address Space Layout Randomization
+
+Makes life for exploit writers a bit more
+difficult.
+
+Usually exploits need to know the location
+of certain data in memory.
+

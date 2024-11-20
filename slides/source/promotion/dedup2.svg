@@ -105,17 +105,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6875"
-     inkscape:cx="922.96296"
-     inkscape:cy="508.74074"
+     inkscape:zoom="0.59662135"
+     inkscape:cx="771.84633"
+     inkscape:cy="575.74205"
      inkscape:document-units="px"
      inkscape:current-layer="layer13"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:snap-page="true"
-     inkscape:window-width="3838"
-     inkscape:window-height="2142"
-     inkscape:window-x="1921"
+     inkscape:window-width="1918"
+     inkscape:window-height="1182"
+     inkscape:window-x="1"
      inkscape:window-y="17"
      inkscape:window-maximized="0"
      inkscape:snap-global="true"
@@ -285,7 +285,7 @@
      inkscape:groupmode="layer"
      id="g55291"
      inkscape:label="step_3"
-     style="display:none"
+     style="display:inline"
      transform="translate(50.988294,-11.126587)"
      sodipodi:insensitive="true">
     <path
@@ -315,7 +315,7 @@
      inkscape:groupmode="layer"
      id="g55323"
      inkscape:label="step_4"
-     style="display:none"
+     style="display:inline"
      transform="translate(50.988294,-11.126587)"
      sodipodi:insensitive="true">
     <use
@@ -565,7 +565,7 @@
      inkscape:groupmode="layer"
      id="g55097"
      inkscape:label="step_2"
-     style="display:none"
+     style="display:inline"
      transform="translate(50.988294,-11.126587)"
      sodipodi:insensitive="true">
     <use

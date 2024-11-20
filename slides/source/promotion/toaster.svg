@@ -26,9 +26,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.1932427"
-     inkscape:cx="754.66626"
-     inkscape:cy="778.13172"
+     inkscape:zoom="0.59662135"
+     inkscape:cx="1117.124"
+     inkscape:cy="560.65711"
      inkscape:window-width="1918"
      inkscape:window-height="1182"
      inkscape:window-x="1"
@@ -7562,7 +7562,7 @@
      inkscape:groupmode="layer"
      id="g8024"
      inkscape:label="input_bag"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <g
        id="g8022"
@@ -7661,7 +7661,7 @@
      inkscape:groupmode="layer"
      id="g1608"
      inkscape:label="input_text"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <g
        id="g1606"
@@ -7681,7 +7681,7 @@
      inkscape:groupmode="layer"
      id="g8164"
      inkscape:label="output_bag"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <g
        id="g8162"
@@ -7760,7 +7760,7 @@
      inkscape:groupmode="layer"
      id="g1773"
      inkscape:label="output_text"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <g
        id="g1771"
@@ -7781,7 +7781,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="output"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <g
        id="g44932-3"

@@ -1,0 +1,80 @@
+;
+; Simple slide dech file format:
+;
+; each line either is one pdf page:
+;
+; <slide_filename_without_extension>:<list_of_visible_layers>,...
+;
+; or a list of layers which should be visible by default from now on
+;
+; @always:<list_of_visible_layers>,...
+;
+; or a page numering command:
+;
+; #       ; turn on page numbering
+; #off    ; turn off page numbering
+; #+      ; increase page number
+; #<nr>   ; set page number to <nr>
+;
+@always:back,bubbles,title ; default, always visible layers
+title:
+toaster:toaster
+toaster:toaster,instructions_bag
+toaster:toaster,instructions_bag,instructions
+toaster:toaster,instructions_bag,puff
+toaster:puff,vendingmachine
+toaster:vendingmachine
+toaster:vendingmachine,input_bag
+toaster:vendingmachine,input_bag,input
+toaster:vendingmachine,input_bag,input,output_bag
+toaster:vendingmachine,input_bag,input,output_bag,output
+toaster:vendingmachine,input_bag,input,output_bag,output,input_text
+toaster:vendingmachine,input_bag,input,output_bag,output,input_text,output_text
+toaster:vendingmachine,input_bag,input,output_bag,output,instructions_text,output_text
+toaster:puff,vendingmachine
+toaster:puff,phage
+abstraction:stack
+abstraction:stack,mistake_a
+abstraction:stack,mistake_a,mistake_b
+abstraction:stack,mistake_a,mistake_b,mistake_c
+abstraction:stack,mistake_a,mistake_b,mistake_c,mistake_d
+abstraction:stack,mistake_a,mistake_b,mistake_c,mistake_d,play_a
+abstraction:stack,mistake_a,mistake_b,mistake_c,mistake_d,play_a,play_b
+abstraction:stack,mistake_a,mistake_b,mistake_c,mistake_d,play_a,play_b,play_c
+abstraction:stack,mistake_a,mistake_b,mistake_c,mistake_d,play_a,play_b,play_c,interactions_a,interactions_b
+abstraction:stack,srop
+abstraction:stack,srop,mistake_srop
+abstraction:stack,srop,play_srop,mistake_srop
+srop:bubbles
+srop:rop_step0
+srop:rop_step0,rop_step1
+srop:rop_step0,rop_step1,rop_step2
+srop:rop_step0,rop_step1,rop_step2,rop_step3
+srop:rop_step0,rop_step1,rop_step2,rop_step3,rop_step4
+srop:rop_step0,rop_step1,rop_step2,rop_step3,rop_step4,rop_step5
+srop:rop_step0,rop_step1,rop_step2,rop_step3,rop_step4,rop_step5,rop_step6
+srop:rop_step0,rop_step1,rop_step2,rop_step3,rop_step4,rop_step5,rop_step6,rop_step7
+srop:rop_step0,rop_step1,rop_step2,rop_step3,rop_step4,rop_step5,rop_step6,rop_step7,srop_step0
+srop:rop_step0,rop_step1,rop_step2,rop_step3,rop_step4,rop_step5,rop_step6,rop_step7,srop_step0,srop_step1
+abstraction:stack,dem
+abstraction:stack,dem,mistake_dem
+abstraction:stack,dem,play_dem,mistake_dem
+dedup:cards
+dedup:cards,octo
+dedup:cards,octo,arrows
+dedup2:step_1
+dedup2:step_1,step_2
+dedup2:step_1,step_2,step_3
+dedup2:step_1,step_2,step_3,step_4
+abstraction:stack,ffs
+abstraction:stack,ffs,mistake_ffs
+abstraction:stack,ffs,play_ffs,mistake_ffs
+dedup3:step_1
+dedup3:step_1,step_2
+dedup3:step_1,step_2,step_3a
+dedup3:step_1,step_2,step_3
+dedup3:step_1,step_2,step_3,step_4
+dedup3:step_1,step_2,step_3,step_4,step_5
+dedup3:step_1,step_2,step_3,step_4,step_5,step_6a
+dedup3:step_1,step_2,step_3,step_4,step_5,step_6
+summary:

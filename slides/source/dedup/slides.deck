@@ -93,57 +93,66 @@ encoding:title_partial,page,secret,encoding,partial
 #+
 outline:dedup,code_pointer
 #+
-;jit_1 w23
-;jit_2 w24
-;jit_4a w24
-;outline_code_pointer_only b25
-;outline_both_pointers b25
-;problem3 w25
-;entropy0 w26
-;entropy1 w26
-;entropy2 w26
-;entropy3 w26
-;entropy4 w26
-;entropy4a w26
-;slab0 w27
-;slab1 w27
-;slab2 w27
-;slab2b w27
-;slab3 w28
-;slab4 w28
-;slab5 w28
-;slab_side w29
-;slab_side1 w29
-;slab_side2 w29
-;slab_side3 w29
-;entropy4a w30
-;entropy5a w30
-;#entropy6 w30
-;entropy6a w30
-;birthday_paradox_0 w31
-;birthday_paradox_1 w31
-;birthday_paradox_2 w31
-;birthday_paradox_3 w31
-;birthday_paradox_4 w31
-;birthday_paradox_5 w31
-;birthday_paradox_6 w31
-;birthday_paradox_7 w31
-;birthday_paradox_8 w31
-;birthday_paradox_9 w31
-;birthday_paradox_10 w31
-;birthday_paradox_11 w31
-;birthday_paradox_12 w31
-;birthday_attack_0 w32
-;birthday_attack_1 w32
-;birthday_attack_2 w32
-;birthday_attack_3 w32
-;birthday_attack_4 w32
-;birthday_attack_5 w32
-;birthday_attack_6 w32
-;birthday_attack_7 w32
-;birthday_attack_8 w32
-;birthday_attack_9 w32
-;birthday_attack_10 w32
+jit:knowndata
+jit:pages,slide0
+jit:pages,slide1
+jit:pages,slide2
+#+
+outline:dedup,code_pointer
+outline:dedup,heap_pointer,code_pointer
+#+
+problem3:
+#+
+entropy:pointer
+entropy:pointer,adv_aslr
+entropy:pointer,adv_aslr,prac_aslr
+entropy:pointer,adv_aslr,prac_aslr,adv_entropy
+entropy:pointer,adv_aslr,prac_aslr,adv_entropy,prac_entropy
+entropy:pointer,adv_aslr,prac_aslr,adv_entropy,prac_entropy,adv_redundancy,prac_redundancy
+#+
+slab:array_object
+slab:array_datastructure
+slab:allocated,array_data
+slab:allocated,arbitrary_data
+#+
+slab:slab
+slab:virtalloc
+slab:virtalloc_side
+#+
+slab_side:base
+slab_side:base,objects0
+slab_side:base,objects0,objects1
+slab_side:base,objects0,objects1,objects2
+#+
+entropy:pointer,adv_aslr,prac_aslr,adv_entropy,prac_entropy,adv_redundancy,prac_redundancy
+entropy:reduced_pointer,adv_aslr,reduced_aslr,adv_entropy,adv_redundancy
+entropy:reduced_pointer,adv_aslr,reduced_aslr,adv_entropy,adv_redundancy,reduced_entropy,prac_redundancy
+#+
+birthday_paradox:x
+birthday_paradox:p0
+birthday_paradox:p0,p1
+birthday_paradox:p0,p1,p2
+birthday_paradox:p0,p1,p2,p3
+birthday_paradox:p0,p1,p2,p3,p4
+birthday_paradox:p0,p1,p2,p3,p4,p5
+birthday_paradox:p0,p1,p2,p3,p4,p5,p6
+birthday_paradox:p0,p1,p2,p3,p4,p5,p6,p7
+birthday_paradox:p0,p1,p2,p3,p4,p5,p6,p7,p8
+birthday_paradox:p0,p1,p2,p3,p4,p5,p6,p7,p8,p9
+birthday_paradox:p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,one_arrow
+birthday_paradox:p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,one_arrow,many_arrows
+#+
+birthday_attack:base,grid,captions
+birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6
+birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0
+birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1
+birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2
+birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3
+birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4
+birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4,p5
+birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4,p5,p6,aura,aura_phys
+birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4,p5,p6,aura,aura_phys,arrows_pre
+birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_empty,p0,p1,p2,p3,p4,p5,p6,aura,arrows_post
 ;secpag0 w33
 ;secpag1 w33
 ;secpag2 w33

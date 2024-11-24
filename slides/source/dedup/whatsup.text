@@ -1,0 +1,10 @@
+memory deduplication: The Problem
+                                                   .
+Deduplicated memory does not need
+to have the same origin.
+                                                   .
+(unlike fork(), file-backed memory)
+                                                   .
+An attacker can use deduplication
+as a side-channel
+

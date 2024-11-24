@@ -1,0 +1,4 @@
+
+Can we generalize this to leaking
+arbitrary data, like an ASLR
+pointer or a password?

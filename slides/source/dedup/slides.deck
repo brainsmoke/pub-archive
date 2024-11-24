@@ -1,0 +1,218 @@
+;
+; Simple slide dech file format:
+;
+; each line either is one pdf page:
+;
+; <slide_filename_without_extension>:<list_of_visible_layers>,...
+;
+; or a list of layers which should be visible by default from now on
+;
+; @always:<list_of_visible_layers>,...
+;
+; or a page numering command:
+;
+; #       ; turn on page numbering
+; #off    ; turn off page numbering
+; #+      ; increase page number
+; #<nr>   ; set page number to <nr>
+;
+@always:back,pagenumber,title ; default, always visible layers
+title_both:
+pointerwarning:
+#1
+pitch_dem:part1_dem
+pitch_dem:part1_dem,dedup
+pitch_dem:part1_dem,dedup,rowhammer
+pitch_dem:part1_dem,dedup,rowhammer,exploit
+pitch_dem:part1_dem,dedup,rowhammer,exploit,pwnie
+#+
+outline:dedup,heap_pointer
+outline:dedup,heap_pointer,code_pointer
+outline:dedup,fake_object
+outline:dedup,fake_object,rowhammer,arrow
+outline:dedup,fake_object,rowhammer,arrow_switch
+#+
+whodoes:
+#+
+dedup:captions,base,grid
+dedup:captions,base,grid,portrait
+dedup:captions,base,grid,portrait,pages_b_phys,pages_b_virt
+dedup:captions,base,grid,portrait,pages_b_phys,pages_b_virt,pages_a
+dedup:captions,base,grid,portrait,pages_blank,pages_b_virt,pages_a
+dedup:captions,base,grid,portrait,pages_blank,pages_b_virt,pages_a,cow
+#+
+whatsup:
+#+
+dedup_cow:title,initial
+dedup_cow:title,initial,normal_write
+dedup_cow:title,initial,normal_write,cow
+dedup_cow:title,initial,normal_write,cow,trap
+dedup_cow:title,initial,normal_write,cow,trap,copy
+dedup_cow:title,initial,normal_write,cow,trap,copy,update
+dedup_cow:title,initial,normal_write,cow,trap,copy,update,return
+dedup_cow:title,initial,normal_write,cow,trap,copy,update,return,write
+#+
+dedup_sidechannel:
+#+
+dedup_covert_channel:
+#+
+cross_process_msg:
+#+
+dedup_detect_software:
+#+
+memdump:wp_title,wp_caption_not_running,wp_not_running_a
+memdump:wp_title,wp_caption_not_running,wp_not_running_b
+#+
+memdump:wp_title,wp_caption_running,wp_running_a
+memdump:wp_title,wp_caption_running,wp_running_b
+#+
+memsignal:
+#+
+memdump:skype_title,skype_caption_not_running,skype_not_running_a
+memdump:skype_title,skype_caption_not_running,skype_not_running_b
+#+
+memdump:skype_title,skype_caption_running,skype_running_a
+memdump:skype_title,skype_caption_running,skype_running_b
+#+
+needmore:
+#+
+onebit:
+#+
+problem1:
+#+
+encoding:title_secret_page,secret
+encoding:title_secret_page,page,secret,encoding
+#+
+problem2:
+#+
+encoding:title_alignment,page,secret,encoding
+encoding:title_alignment,page,secret,alignment
+#+
+encoding:title_partial,page,secret,encoding
+encoding:title_partial,page,secret,encoding,partial
+#+
+outline:dedup,code_pointer
+#+
+;jit_1 w23
+;jit_2 w24
+;jit_4a w24
+;outline_code_pointer_only b25
+;outline_both_pointers b25
+;problem3 w25
+;entropy0 w26
+;entropy1 w26
+;entropy2 w26
+;entropy3 w26
+;entropy4 w26
+;entropy4a w26
+;slab0 w27
+;slab1 w27
+;slab2 w27
+;slab2b w27
+;slab3 w28
+;slab4 w28
+;slab5 w28
+;slab_side w29
+;slab_side1 w29
+;slab_side2 w29
+;slab_side3 w29
+;entropy4a w30
+;entropy5a w30
+;#entropy6 w30
+;entropy6a w30
+;birthday_paradox_0 w31
+;birthday_paradox_1 w31
+;birthday_paradox_2 w31
+;birthday_paradox_3 w31
+;birthday_paradox_4 w31
+;birthday_paradox_5 w31
+;birthday_paradox_6 w31
+;birthday_paradox_7 w31
+;birthday_paradox_8 w31
+;birthday_paradox_9 w31
+;birthday_paradox_10 w31
+;birthday_paradox_11 w31
+;birthday_paradox_12 w31
+;birthday_attack_0 w32
+;birthday_attack_1 w32
+;birthday_attack_2 w32
+;birthday_attack_3 w32
+;birthday_attack_4 w32
+;birthday_attack_5 w32
+;birthday_attack_6 w32
+;birthday_attack_7 w32
+;birthday_attack_8 w32
+;birthday_attack_9 w32
+;birthday_attack_10 w32
+;secpag0 w33
+;secpag1 w33
+;secpag2 w33
+;secpag3 w33
+;secpag4 w33
+;probpag0 w34
+;probpag1 w34
+;probpag2 w34
+;birthday_0 w35
+;birthday_1 w35
+;birthday_2 w35
+;birthday_3 w35
+;outline_post_flip b36
+;dimms0 w37
+;dimms1 w37
+;bank0 w37
+;bank1 w37
+;bank2 w37
+;bank4 w37
+;bank4a w37
+;bank3 w37
+;bank3a w37
+;bank4 w37
+;bank3 w37
+;#bank3b w37
+;#bank4b w37
+;bank5 w37
+;ffs_rowhammer_0 w38
+;ffs_rowhammer_1 w38
+;ffs_rowhammer_2 w38
+;ffs_rowhammer_3 w38
+;ffs_rowhammer_4 w38
+;fakeobj w39
+;chakra_types_0 w40
+;chakra_types_1 w40
+;chakra_types_2 w40
+;chakra_types_3 w40
+;chakra_types_4 w40
+;chakra_types_5 w40
+;chakra_types_6 w40
+;chakra_types_7 w40
+;chakra_types_8 w40
+;chakra_types_9 w41
+;chakra_types_a w41
+;pivot_0a w42
+;pivot_1 w42
+;pivot_2 w42
+;pivot_3 w42
+;#pivot_3a w38
+;#pivot_3 w40
+;pivot_4 w42
+;flip_prob w43
+;mitigation b44
+;#inshort w46
+;pitch_ffs_0 b45
+;pitch_ffs_1 b45
+;pitch_ffs b45
+;rowhammer_prim w46
+;ffs_goal w47
+;ffs_dedup_0 w48
+;ffs_dedup_1 w48
+;ffs_dedup_2 w49
+;ffs_dedup_3 w49
+;ffs_dedup_4 w49
+;ffs_dedup_5 w49
+;ffs_dedup_5a w49
+;ffs_dedup_6 w49
+;ffs_dedup_7 w49
+;ffs_dedup_8 w49
+;ffs_dedup_9 w49
+;ffs_ex1 w50
+;ffs_ex2 w50

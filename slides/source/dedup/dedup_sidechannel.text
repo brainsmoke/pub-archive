@@ -1,0 +1,9 @@
+deduplication side-channel attack
+                                            .
+A 1-bit side channel which is able
+to leak data across security boundaries
+                                            .
+- cross VM
+- cross-process
+- leak process data from javascript code
+

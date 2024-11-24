@@ -193,43 +193,53 @@ physmem_rowhammer:grid,one_bank,hammer_rows
 physmem_rowhammer:grid,one_bank,hammer_rows,flip
 physmem_rowhammer:grid,spray,flip,seaborn_attack
 #+
-;fakeobj w39
-;chakra_types_0 w40
-;chakra_types_1 w40
-;chakra_types_2 w40
-;chakra_types_3 w40
-;chakra_types_4 w40
-;chakra_types_5 w40
-;chakra_types_6 w40
-;chakra_types_7 w40
-;chakra_types_8 w40
-;chakra_types_9 w41
-;chakra_types_a w41
-;pivot_0a w42
-;pivot_1 w42
-;pivot_2 w42
-;pivot_3 w42
-;#pivot_3a w38
-;#pivot_3 w40
-;pivot_4 w42
-;flip_prob w43
-;mitigation b44
-;#inshort w46
-;pitch_ffs_0 b45
-;pitch_ffs_1 b45
-;pitch_ffs b45
-;rowhammer_prim w46
-;ffs_goal w47
-;ffs_dedup_0 w48
-;ffs_dedup_1 w48
-;ffs_dedup_2 w49
-;ffs_dedup_3 w49
-;ffs_dedup_4 w49
-;ffs_dedup_5 w49
-;ffs_dedup_5a w49
-;ffs_dedup_6 w49
-;ffs_dedup_7 w49
-;ffs_dedup_8 w49
-;ffs_dedup_9 w49
-;ffs_ex1 w50
-;ffs_ex2 w50
+fake_object:
+#+
+chakra_nan_boxing:x
+chakra_nan_boxing:numbers_text,numbers_base,numbers_bits
+chakra_nan_boxing:numbers_text,numbers_base,numbers_bits,numbers_fields
+chakra_nan_boxing:numbers_text,numbers_base,numbers_bits,numbers_fields,objects_text,objects_base,objects_bits
+chakra_nan_boxing:numbers_text,numbers_base,numbers_bits,numbers_fields,objects_text,objects_base,objects_bits,objects_fields
+chakra_nan_boxing:nan_text,numbers_base,nan_bits,nan_fields,objects_text,objects_base,objects_bits,objects_fields
+chakra_nan_boxing:nan_text,numbers_base,nan_bits_canonical,nan_fields,objects_text,objects_base,objects_bits,objects_fields
+chakra_nan_boxing:nan_xor_text,numbers_base,nan_bits_xor,nan_fields,objects_text,objects_base,objects_bits_xor,objects_fields
+chakra_nan_boxing:nan_xor_text,numbers_base,nan_bits_xor,nan_fields,objects_nan_boxed_text,objects_base,objects_bits_xor,objects_fields
+#+
+chakra_type_flipping:x
+chakra_type_flipping:flip
+#+
+pivot:fake_object
+pivot:fake_object,array
+pivot:fake_object,array,2nd_array
+pivot:fake_object,array,2nd_array,pointer
+pivot:fake_object,array,2nd_array,pointer_flip
+#+
+flip_probability:
+#+
+mitigation_dem:
+#+
+pitch_ffs:part2_ffs
+pitch_ffs:part2_ffs,rowhammer
+pitch_ffs:part2_ffs,rowhammer,dedup
+pitch_ffs:part2_ffs,rowhammer,dedup,compromise
+#+
+rowhammer_facts:
+#+
+ffs_goal:
+#+
+dedup_win10:grid,captions,virt,phys_pre,arrows_pre
+dedup_win10:grid,captions,virt,phys_post,arrows_post
+#+
+dedup_ffs:grid,captions
+dedup_ffs:grid_huge_pages,captions
+dedup_ffs:grid_huge_pages,captions,hammer_rows
+dedup_ffs:grid_huge_pages,captions,hammer_rows,flip_aura,flip
+dedup_ffs:grid_huge_pages,captions,hammer_rows,flip_aura,flip,victim_page_phys,victim_page_virt
+dedup_ffs:grid_huge_pages,captions,hammer_rows,victim_page_phys,victim_page_virt,target_page
+dedup_ffs:grid,captions,hammer_rows,victim_page_phys,victim_page_virt,target_page
+dedup_ffs:grid,captions,hammer_rows,empty_page,victim_page_virt,target_page,arrow
+dedup_ffs:grid,captions,hammer_rows,empty_page,victim_page_virt,target_page,flip_aura,flip,flip_aura_victim,flip_victim
+#+
+ffs_example1:
+#+
+ffs_example2:

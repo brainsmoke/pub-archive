@@ -1,0 +1,8 @@
+Flip Feng Shui goal:
+- Find victim pages with known content
+  which allow for exploitation when
+  certain bits are flipped
+                                                        .
+- Land this victim page in a physical
+  memory location where this bit is
+  flippable

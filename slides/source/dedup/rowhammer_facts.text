@@ -1,0 +1,7 @@
+
+                                                        .
+Rowhammer bit flips:
+                                                        .
+1) Unpredictable on which (virtual) page
+2) Unpredictable where in the page
+3) Repeatable once you've found a flip

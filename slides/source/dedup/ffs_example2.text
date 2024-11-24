@@ -1,0 +1,6 @@
+Example 2: GPG & apt-get
+                                                        .
+Targets: sources.list & keyring
+                                                        .
+- Flip a bit in the mirror domain name
+- Flip a bit in a signed public key

@@ -1,0 +1,7 @@
+
+Leaking existing pages is slow and the
+gained information is limited.
+
+What if we can manipulate the contents
+of the victim's memory to leak secrets
+hand-picked by the attacker.

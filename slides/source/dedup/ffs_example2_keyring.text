@@ -1,0 +1,8 @@
+Example 2: GPG & apt-get
+
+Targets:    sources.list
+                 +
+            GPG keyring
+
+
+         corrupt signing key

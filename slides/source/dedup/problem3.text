@@ -1,4 +1,6 @@
 
+What if leaking a heap pointer in
+stages is not possible...
                                                         .
-We were not able to create pages leaking
-only part of our heap pointer.
+We need to guess a page containing
+the complete pointer.

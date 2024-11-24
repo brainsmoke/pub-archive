@@ -1,0 +1,8 @@
+Example 2: GPG & apt-get
+
+Targets:    sources.list
+
+
+
+  flip package repository domain name
+     eg.  ubuntu.com -> ubunvu.com

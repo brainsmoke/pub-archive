@@ -78,6 +78,8 @@ needmore:
 #+
 onebit:
 #+
+manipulate_victim_memory:
+#+
 problem1:
 #+
 encoding:title_secret_page,secret
@@ -240,6 +242,13 @@ dedup_ffs:grid,captions,hammer_rows,victim_page_phys,victim_page_virt,target_pag
 dedup_ffs:grid,captions,hammer_rows,empty_page,victim_page_virt,target_page,arrow
 dedup_ffs:grid,captions,hammer_rows,empty_page,victim_page_virt,target_page,flip_aura,flip,flip_aura_victim,flip_victim
 #+
+ffs_example1_pubkey:
+#+
+rsa_pubkey:key_color_coded
+rsa_pubkey:key_flips
+#+
 ffs_example1:
 #+
-ffs_example2:
+ffs_example2_sources:
+#+
+ffs_example2_keyring:

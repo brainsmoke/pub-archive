@@ -16,7 +16,7 @@
 ; #+      ; increase page number
 ; #<nr>   ; set page number to <nr>
 ;
-@always:back,pagenumber,title ; default, always visible layers
+@always:back,base,pagenumber,title ; default, always visible layers
 title_both:
 pointerwarning:
 #1
@@ -34,12 +34,12 @@ outline:dedup,fake_object,rowhammer,arrow_switch
 #+
 whodoes:
 #+
-dedup:captions,base,grid
-dedup:captions,base,grid,portrait
-dedup:captions,base,grid,portrait,pages_b_phys,pages_b_virt
-dedup:captions,base,grid,portrait,pages_b_phys,pages_b_virt,pages_a
-dedup:captions,base,grid,portrait,pages_blank,pages_b_virt,pages_a
-dedup:captions,base,grid,portrait,pages_blank,pages_b_virt,pages_a,cow
+dedup:captions,grid
+dedup:captions,grid,portrait
+dedup:captions,grid,portrait,pages_b_phys,pages_b_virt
+dedup:captions,grid,portrait,pages_b_phys,pages_b_virt,pages_a
+dedup:captions,grid,portrait,pages_blank,pages_b_virt,pages_a
+dedup:captions,grid,portrait,pages_blank,pages_b_virt,pages_a,cow
 #+
 whatsup:
 #+
@@ -119,10 +119,10 @@ slab:slab
 slab:virtalloc
 slab:virtalloc_side
 #+
-slab_side:base
-slab_side:base,objects0
-slab_side:base,objects0,objects1
-slab_side:base,objects0,objects1,objects2
+slab_side:
+slab_side:objects0
+slab_side:objects0,objects1
+slab_side:objects0,objects1,objects2
 #+
 entropy:pointer,adv_aslr,prac_aslr,adv_entropy,prac_entropy,adv_redundancy,prac_redundancy
 entropy:reduced_pointer,adv_aslr,reduced_aslr,adv_entropy,adv_redundancy
@@ -142,49 +142,57 @@ birthday_paradox:p0,p1,p2,p3,p4,p5,p6,p7,p8,p9
 birthday_paradox:p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,one_arrow
 birthday_paradox:p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,one_arrow,many_arrows
 #+
-birthday_attack:base,grid,captions
-birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6
-birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0
-birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1
-birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2
-birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3
-birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4
-birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4,p5
-birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4,p5,p6,aura,aura_phys
-birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4,p5,p6,aura,aura_phys,arrows_pre
-birthday_attack:base,grid,captions,victim_pages,victim_p6,victim_phys_empty,p0,p1,p2,p3,p4,p5,p6,aura,arrows_post
-;secpag0 w33
-;secpag1 w33
-;secpag2 w33
-;secpag3 w33
-;secpag4 w33
-;probpag0 w34
-;probpag1 w34
-;probpag2 w34
-;birthday_0 w35
-;birthday_1 w35
-;birthday_2 w35
-;birthday_3 w35
-;outline_post_flip b36
-;dimms0 w37
-;dimms1 w37
-;bank0 w37
-;bank1 w37
-;bank2 w37
-;bank4 w37
-;bank4a w37
-;bank3 w37
-;bank3a w37
-;bank4 w37
-;bank3 w37
-;#bank3b w37
-;#bank4b w37
-;bank5 w37
-;ffs_rowhammer_0 w38
-;ffs_rowhammer_1 w38
-;ffs_rowhammer_2 w38
-;ffs_rowhammer_3 w38
-;ffs_rowhammer_4 w38
+birthday_attack:grid,captions
+birthday_attack:grid,captions,victim_pages,victim_p6,victim_phys_p6
+birthday_attack:grid,captions,victim_pages,victim_p6,victim_phys_p6,p0
+birthday_attack:grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1
+birthday_attack:grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2
+birthday_attack:grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3
+birthday_attack:grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4
+birthday_attack:grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4,p5
+birthday_attack:grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4,p5,p6,aura,aura_phys
+birthday_attack:grid,captions,victim_pages,victim_p6,victim_phys_p6,p0,p1,p2,p3,p4,p5,p6,aura,aura_phys,arrows_pre
+birthday_attack:grid,captions,victim_pages,victim_p6,victim_phys_empty,p0,p1,p2,p3,p4,p5,p6,aura,arrows_post
+#+
+secret_pages:objects
+secret_pages:objects,array,array_text
+secret_pages:objects,array,pages,pages_text
+secret_pages:objects,array,pages,pages_text,secrets
+secret_pages:objects,array,pages,secrets_text,secrets
+#+
+probe_pages:array,array_text
+probe_pages:array,array_text,objects
+probe_pages:array,objects,guesses
+#+
+birthday_heapspray:x
+birthday_heapspray:secrets,secret_match
+birthday_heapspray:secrets,secret_match,guesses,probe_text
+birthday_heapspray:secrets,probes,probe_text
+#+
+outline:dedup,heap_pointer,code_pointer
+outline:dedup,fake_object
+outline:dedup,fake_object,rowhammer,arrow_switch
+#+
+dimms:x
+dimms:desc
+#+
+bank_rowhammer:x
+bank_rowhammer:rows_text
+bank_rowhammer:rows_text,row_buffer_text,row_buffer_blank
+bank_rowhammer:rows_text,row_buffer_text,row_3_read
+bank_rowhammer:rows_text,row_buffer_text,row_3_write
+bank_rowhammer:rows_text,row_buffer_text,row_1_read
+bank_rowhammer:rows_text,row_buffer_text,row_1_write
+bank_rowhammer:rows_text,row_buffer_text,row_3_read
+bank_rowhammer:rows_text,row_buffer_text,row_1_read
+bank_rowhammer:rows_text,row_buffer_text,row_3_read,flip
+#+
+physmem_rowhammer:grid,all_mem
+physmem_rowhammer:grid,one_bank
+physmem_rowhammer:grid,one_bank,hammer_rows
+physmem_rowhammer:grid,one_bank,hammer_rows,flip
+physmem_rowhammer:grid,spray,flip,seaborn_attack
+#+
 ;fakeobj w39
 ;chakra_types_0 w40
 ;chakra_types_1 w40

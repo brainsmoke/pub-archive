@@ -23,6 +23,15 @@ tmp/%.svg: %.svg
 %.pdf: %.deck $(PDFS)
 	 pdftk $(PDFS) output "$@"
 
+# would be nice, but it degrades images by re-encoding them
+#
+#%.pdf: tmp/%.pdf
+#	gs -o $@ -sDEVICE=pdfwrite -dDetectDuplicateImages=true -dCompressFonts=true -dAutoRotatePages=/None -f $^
+#
+#tmp/%.pdf: %.deck $(PDFS)
+#	 pdftk $(PDFS) output "$@"
+#
+
 clean:
 	-rm tmp/*
 

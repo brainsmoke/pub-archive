@@ -1,0 +1,89 @@
+;
+; Simple slide dech file format:
+;
+; each line either is one pdf page:
+;
+; <slide_filename_without_extension>:<list_of_visible_layers>,...
+;
+; or a list of layers which should be visible by default from now on
+;
+; @always:<list_of_visible_layers>,...
+;
+; or a page numering command:
+;
+; #       ; turn on page numbering
+; #off    ; turn off page numbering
+; #+      ; increase page number
+; #<nr>   ; set page number to <nr>
+;
+@always:back,bubbles,title ; default, always visible layers
+title:
+me:
+polyhedrone:
+minipoly:
+uball:
+greatcircles:
+oddoneout:
+aluball:
+chiral:
+chiral_big:
+why:
+why0:
+why1:
+why2:
+why:
+mathsfun:
+shapes_plato:
+shapes_arch:
+shapes_snub:
+shapes_arch:
+shapes_cat:
+shapes_cat_dual:
+shapes_cat_prop:
+shapes_delt:
+gen_shapes:
+openscad:
+pcb:
+pos:
+wiring0:
+;wiring1:
+;wiring2:
+wiring3:
+wiring4:
+lots0:
+lots1:
+lots2:
+lots3:
+lots4:
+lots5:
+lots6:
+complete:
+gen_leds:
+baklicht:
+programming:
+8bit0:
+8bit1:
+8bit2:
+fadecandy:
+tempdith1:
+tempdith2:
+sdr0:
+sdr1:
+sdr2:
+sdr3:
+sdr4:
+sdr5:
+sdr6:
+sdr7:
+practical:
+uink1:
+upcb:
+ucnc:
+ucncpcb:
+uball:
+jigs3:
+jigsa:
+jigs0:
+jigs5:
+jigs1:
+comp:
